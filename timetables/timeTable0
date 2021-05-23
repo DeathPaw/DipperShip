@@ -1,0 +1,756 @@
+{
+  "shipSlotList" : [ {
+    "ship" : {
+      "name" : "ship2",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 8,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1335,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 0,
+    "startTime" : 0,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 672,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship6",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 9,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 49,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 0,
+    "startTime" : 0,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 29,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship3",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 2,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 837,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 4,
+    "startTime" : 671,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1091,
+    "cranesWorkingOn" : 2,
+    "penalty" : 1100
+  }, {
+    "ship" : {
+      "name" : "ship10",
+      "cargoType" : "BULK",
+      "nominalWeight" : 3,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1290,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 6,
+    "startTime" : 6,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 653,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship5",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 965,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 7,
+    "startTime" : 1091,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1576,
+    "cranesWorkingOn" : 2,
+    "penalty" : 1800
+  }, {
+    "ship" : {
+      "name" : "ship11",
+      "cargoType" : "BULK",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 930,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 8,
+    "startTime" : 652,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1120,
+    "cranesWorkingOn" : 2,
+    "penalty" : 1000
+  }, {
+    "ship" : {
+      "name" : "ship9",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 4,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 842,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 10,
+    "startTime" : 1576,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1999,
+    "cranesWorkingOn" : 2,
+    "penalty" : 2600
+  }, {
+    "ship" : {
+      "name" : "ship21",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 1,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1142,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 11,
+    "startTime" : 29,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 30,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship29",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 572,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 14,
+    "startTime" : 30,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 607,
+    "cranesWorkingOn" : 1,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship18",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 996,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 15,
+    "startTime" : 1999,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2502,
+    "cranesWorkingOn" : 2,
+    "penalty" : 3300
+  }, {
+    "ship" : {
+      "name" : "ship17",
+      "cargoType" : "BULK",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 33,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 16,
+    "startTime" : 1120,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1142,
+    "cranesWorkingOn" : 2,
+    "penalty" : 1800
+  }, {
+    "ship" : {
+      "name" : "ship30",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 870,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 17,
+    "startTime" : 607,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1329,
+    "cranesWorkingOn" : 2,
+    "penalty" : 900
+  }, {
+    "ship" : {
+      "name" : "ship20",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1440,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 20,
+    "startTime" : 2502,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 3227,
+    "cranesWorkingOn" : 2,
+    "penalty" : 4100
+  }, {
+    "ship" : {
+      "name" : "ship22",
+      "cargoType" : "BULK",
+      "nominalWeight" : 2,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 879,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 21,
+    "startTime" : 1141,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1582,
+    "cranesWorkingOn" : 2,
+    "penalty" : 1800
+  }, {
+    "ship" : {
+      "name" : "ship23",
+      "cargoType" : "BULK",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 796,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 22,
+    "startTime" : 1582,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1985,
+    "cranesWorkingOn" : 2,
+    "penalty" : 2600
+  }, {
+    "ship" : {
+      "name" : "ship31",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1182,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 22,
+    "startTime" : 1329,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 1923,
+    "cranesWorkingOn" : 2,
+    "penalty" : 2100
+  }, {
+    "ship" : {
+      "name" : "ship24",
+      "cargoType" : "BULK",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 132,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 27,
+    "startTime" : 1985,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2054,
+    "cranesWorkingOn" : 2,
+    "penalty" : 3200
+  }, {
+    "ship" : {
+      "name" : "ship34",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 631,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 29,
+    "startTime" : 1922,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2241,
+    "cranesWorkingOn" : 2,
+    "penalty" : 3100
+  }, {
+    "ship" : {
+      "name" : "ship28",
+      "cargoType" : "BULK",
+      "nominalWeight" : 1,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 819,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 33,
+    "startTime" : 2053,
+    "dispatchTimeOffset" : 819,
+    "dispatchTime" : 2054,
+    "cranesWorkingOn" : 1,
+    "penalty" : 3300
+  }, {
+    "ship" : {
+      "name" : "ship36",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 3,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 449,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 34,
+    "startTime" : 3227,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 3453,
+    "cranesWorkingOn" : 2,
+    "penalty" : 5300
+  }, {
+    "ship" : {
+      "name" : "ship39",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 4,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 654,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 35,
+    "startTime" : 3453,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 3782,
+    "cranesWorkingOn" : 2,
+    "penalty" : 5600
+  }, {
+    "ship" : {
+      "name" : "ship38",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 9,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 672,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 37,
+    "startTime" : 2240,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2581,
+    "cranesWorkingOn" : 2,
+    "penalty" : 3600
+  }, {
+    "ship" : {
+      "name" : "ship41",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1335,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 37,
+    "startTime" : 3782,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4455,
+    "cranesWorkingOn" : 2,
+    "penalty" : 6200
+  }, {
+    "ship" : {
+      "name" : "ship40",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 468,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 42,
+    "startTime" : 2581,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2820,
+    "cranesWorkingOn" : 2,
+    "penalty" : 4200
+  }, {
+    "ship" : {
+      "name" : "ship43",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 3,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 115,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 47,
+    "startTime" : 2820,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2879,
+    "cranesWorkingOn" : 2,
+    "penalty" : 4600
+  }, {
+    "ship" : {
+      "name" : "ship47",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 428,
+    "arrivalTimeOffset" : 0,
+    "arrivalTime" : 50,
+    "startTime" : 2879,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 3098,
+    "cranesWorkingOn" : 2,
+    "penalty" : 4700
+  }, {
+    "ship" : {
+      "name" : "ship1",
+      "cargoType" : "BULK",
+      "nominalWeight" : 7,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 561,
+    "arrivalTimeOffset" : 853,
+    "arrivalTime" : 853,
+    "startTime" : 2054,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2338,
+    "cranesWorkingOn" : 2,
+    "penalty" : 2000
+  }, {
+    "ship" : {
+      "name" : "ship25",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 9,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 809,
+    "arrivalTimeOffset" : 1096,
+    "arrivalTime" : 1121,
+    "startTime" : 4454,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4864,
+    "cranesWorkingOn" : 2,
+    "penalty" : 5500
+  }, {
+    "ship" : {
+      "name" : "ship42",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 6,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 126,
+    "arrivalTimeOffset" : 1343,
+    "arrivalTime" : 1385,
+    "startTime" : 4863,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4930,
+    "cranesWorkingOn" : 2,
+    "penalty" : 5700
+  }, {
+    "ship" : {
+      "name" : "ship16",
+      "cargoType" : "BULK",
+      "nominalWeight" : 1,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1373,
+    "arrivalTimeOffset" : 2145,
+    "arrivalTime" : 2161,
+    "startTime" : 2338,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 2339,
+    "cranesWorkingOn" : 2,
+    "penalty" : 200
+  }, {
+    "ship" : {
+      "name" : "ship7",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 8,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 40,
+    "arrivalTimeOffset" : 2758,
+    "arrivalTime" : 2762,
+    "startTime" : 3098,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 3122,
+    "cranesWorkingOn" : 2,
+    "penalty" : 500
+  }, {
+    "ship" : {
+      "name" : "ship32",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 9,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 56,
+    "arrivalTimeOffset" : 3231,
+    "arrivalTime" : 3260,
+    "startTime" : 4929,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4962,
+    "cranesWorkingOn" : 2,
+    "penalty" : 2700
+  }, {
+    "ship" : {
+      "name" : "ship15",
+      "cargoType" : "BULK",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1184,
+    "arrivalTimeOffset" : 3921,
+    "arrivalTime" : 3934,
+    "startTime" : 3934,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4529,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship33",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 10,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 825,
+    "arrivalTimeOffset" : 3982,
+    "arrivalTime" : 4006,
+    "startTime" : 4006,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4424,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship35",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 4,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 78,
+    "arrivalTimeOffset" : 4217,
+    "arrivalTime" : 4249,
+    "startTime" : 4423,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 4465,
+    "cranesWorkingOn" : 2,
+    "penalty" : 200
+  }, {
+    "ship" : {
+      "name" : "ship37",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 7,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1242,
+    "arrivalTimeOffset" : 5556,
+    "arrivalTime" : 5590,
+    "startTime" : 5590,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 6215,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship27",
+      "cargoType" : "BULK",
+      "nominalWeight" : 6,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 996,
+    "arrivalTimeOffset" : 6056,
+    "arrivalTime" : 6086,
+    "startTime" : 6086,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 6587,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship19",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 268,
+    "arrivalTimeOffset" : 6546,
+    "arrivalTime" : 6554,
+    "startTime" : 6554,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 6691,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship14",
+      "cargoType" : "BULK",
+      "nominalWeight" : 4,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 962,
+    "arrivalTimeOffset" : 6969,
+    "arrivalTime" : 6980,
+    "startTime" : 6980,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 7463,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship12",
+      "cargoType" : "BULK",
+      "nominalWeight" : 2,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 782,
+    "arrivalTimeOffset" : 7860,
+    "arrivalTime" : 7870,
+    "startTime" : 7870,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 8262,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship13",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 6,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1184,
+    "arrivalTimeOffset" : 7861,
+    "arrivalTime" : 7873,
+    "startTime" : 7873,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 8468,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship48",
+      "cargoType" : "BULK",
+      "nominalWeight" : 7,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 366,
+    "arrivalTimeOffset" : 8213,
+    "arrivalTime" : 8246,
+    "startTime" : 8262,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 8449,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship26",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 6,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1127,
+    "arrivalTimeOffset" : 8243,
+    "arrivalTime" : 8254,
+    "startTime" : 8254,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 8821,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship46",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 4,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 738,
+    "arrivalTimeOffset" : 9505,
+    "arrivalTime" : 9553,
+    "startTime" : 9553,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 9924,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship45",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1302,
+    "arrivalTimeOffset" : 9531,
+    "arrivalTime" : 9581,
+    "startTime" : 9581,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 10235,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship44",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 9,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 647,
+    "arrivalTimeOffset" : 9640,
+    "arrivalTime" : 9685,
+    "startTime" : 10234,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 10563,
+    "cranesWorkingOn" : 2,
+    "penalty" : 900
+  }, {
+    "ship" : {
+      "name" : "ship4",
+      "cargoType" : "CONTAINER",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 42,
+    "arrivalTimeOffset" : 10115,
+    "arrivalTime" : 10120,
+    "startTime" : 10562,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 10586,
+    "cranesWorkingOn" : 2,
+    "penalty" : 700
+  }, {
+    "ship" : {
+      "name" : "ship0",
+      "cargoType" : "BULK",
+      "nominalWeight" : 1,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1237,
+    "arrivalTimeOffset" : 10390,
+    "arrivalTime" : 10390,
+    "startTime" : 10390,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 11009,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  }, {
+    "ship" : {
+      "name" : "ship8",
+      "cargoType" : "BULK",
+      "nominalWeight" : 5,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1107,
+    "arrivalTimeOffset" : 10553,
+    "arrivalTime" : 10557,
+    "startTime" : 11009,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 11565,
+    "cranesWorkingOn" : 2,
+    "penalty" : 700
+  }, {
+    "ship" : {
+      "name" : "ship49",
+      "cargoType" : "LIQUID",
+      "nominalWeight" : 7,
+      "workingWeight" : 0
+    },
+    "dispatchTimeOffsetNominal" : 1301,
+    "arrivalTimeOffset" : 10659,
+    "arrivalTime" : 10714,
+    "startTime" : 10714,
+    "dispatchTimeOffset" : 0,
+    "dispatchTime" : 11368,
+    "cranesWorkingOn" : 2,
+    "penalty" : 0
+  } ],
+  "optimalBulkCraneAmount" : 2,
+  "optimalLiquidCraneAmount" : 2,
+  "optimalContainerCraneAmount" : 2
+}
