@@ -1,6 +1,7 @@
 package ru.ramazanov.DipperShip.simulator;
 
 import org.springframework.stereotype.Component;
+import org.springframework.util.SerializationUtils;
 import ru.ramazanov.DipperShip.models.*;
 import ru.ramazanov.DipperShip.models.Crane;
 import ru.ramazanov.DipperShip.models.ShipService;
@@ -86,8 +87,10 @@ public class ThirdService implements ShipService {
                         optimalLiquidCraneAmount = liquidCraneAmount;
                         optimalContainerCraneAmount = containerCraneAmount;
                         optimalShipSlotList.clear();
-                        optimalShipSlotList = timeTable.getShipSlotList().stream()
-                                .collect(Collectors.toList());
+                        restoreByOptimal(optimalBulkCraneAmount, optimalLiquidCraneAmount, optimalContainerCraneAmount);
+                       // optimalShipSlotList = timeTable.getShipSlotList().stream()
+                        //        .collect(Collectors.toList());
+
                     }
 
                 }
@@ -141,6 +144,36 @@ public class ThirdService implements ShipService {
             shipSlot.setArrivalTime(shipSlot.getArrivalTime() + shipSlot.getArrivalTimeOffset());
         }
     }
+
+    private void restoreByOptimal(int optimalBulkCraneAmount, int optimalLiquidCraneAmount
+            , int optimalContainerCraneAmount) {
+        List<Crane> craneList = CraneInitializer.createCraneList(optimalBulkCraneAmount, optimalLiquidCraneAmount
+                , optimalContainerCraneAmount, bulkCraneEfficiency
+                , liquidCraneEfficiency, containerCraneEfficiency);
+
+        List<CraneRunnable> craneRunnableList = new ArrayList<>();
+
+        int totalCraneAmount = optimalBulkCraneAmount + optimalLiquidCraneAmount + optimalContainerCraneAmount;
+
+        cyclicBarrier = new CyclicBarrier(totalCraneAmount);
+
+        for (int i = 0; i < totalCraneAmount; ++i) {
+            craneRunnableList.add(new CraneRunnable(this, craneList.get(i)));
+        }
+
+        for (int i = 0; i < totalCraneAmount; ++i) {
+            craneRunnableList.get(i).getThread().start();
+        }
+
+        for (int i = 0; i < totalCraneAmount; ++i) {
+            try {
+                craneRunnableList.get(i).getThread().join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     @Override
     public void barrierAwait() {
         try {
