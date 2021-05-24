@@ -52,8 +52,8 @@ public class TimeTableGeneratorService implements ShipService {
         }
 
         for (ShipSlot shipSlot : timeTable.getShipSlotList()) {
-            System.out.println(shipSlot.getShip() + ", arrivalTime=" + shipSlot.getArrivalTime() +
-                    ", dispatchTime=" + shipSlot.getDispatchTime() + ".");
+            System.out.println(shipSlot.getShip() + " Время прибытия: " + shipSlot.getArrivalTime() +
+                    " Время отправки: " + shipSlot.getDispatchTime() + ".");
         }
 
         return timeTable;

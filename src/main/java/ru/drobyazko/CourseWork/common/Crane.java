@@ -4,6 +4,7 @@ public class Crane {
 
     private CargoType cargoType;
     private int craneEfficiency;
+    private int craneUnloadSpeed = 1;
 
     public Crane(CargoType cargoType, int craneEfficiency) {
         this.cargoType = cargoType;
@@ -16,6 +17,10 @@ public class Crane {
 
     public int getCraneEfficiency() {
         return craneEfficiency;
+    }
+
+    public int getCraneUnloadSpeed() {
+        return craneUnloadSpeed;
     }
 
 }

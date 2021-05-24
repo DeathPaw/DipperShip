@@ -32,15 +32,15 @@ public class TimeTableSolverService implements ShipService {
         int optimalLiquidCraneAmount;
         int optimalContainerCraneAmount;
 
-        Object[] bulkResults = solveCranes(CargoType.BULK, 3);
+        Object[] bulkResults = solveCranes(CargoType.BULK, 3);//
         Object[] liquidResults = solveCranes(CargoType.LIQUID, 3);
         Object[] containerResults = solveCranes(CargoType.CONTAINER, 3);
 
-        optimalBulkCraneAmount = (int)bulkResults[1];
+        optimalBulkCraneAmount = (int)bulkResults[1];//
         optimalLiquidCraneAmount = (int)liquidResults[1];
         optimalContainerCraneAmount = (int)containerResults[1];
 
-        timeTable.setOptimalBulkCraneAmount(optimalBulkCraneAmount);
+        timeTable.setOptimalBulkCraneAmount(optimalBulkCraneAmount);//
         timeTable.setOptimalLiquidCraneAmount(optimalLiquidCraneAmount);
         timeTable.setOptimalContainerCraneAmount(optimalContainerCraneAmount);
 

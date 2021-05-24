@@ -5,38 +5,49 @@ import java.util.Random;
 public class Ship {
 
     private final int weightBound = 10;
-    private static int count = 0;
 
     private String name;
     private CargoType cargoType;
+    private ShipType shipType;
     private int nominalWeight;
     private int workingWeight;
 
     public Ship() {
         Random random = new Random();
+        String name = null;
+        String[] adjective = { "Dusty ", "Brave ", "Untouchable ", "Genius ", "Funky ", "Crazy "};
+        String[] noun = { "bear", "rain", "hunter", "searcher", "diver", "beginner", "looker", "seeker"};
 
-        this.name = "ship" + (count++);
-        this.nominalWeight = random.nextInt(weightBound) + 1;
-        this.workingWeight = this.nominalWeight;
-        this.cargoType = generateRandomCargoType(random);
-    }
-
-    private CargoType generateRandomCargoType(Random random) {
-        CargoType cargoType = CargoType.BULK;
+        this.name = adjective[random.nextInt(adjective.length)]+noun[random.nextInt(noun.length)];
 
         switch(random.nextInt(3)) {
             case 0:
-                cargoType = CargoType.BULK;
+                this.shipType = ShipType.SMALL;
+                this.nominalWeight = random.nextInt(2) + 2;
+                this.workingWeight = this.nominalWeight;
                 break;
             case 1:
-                cargoType = CargoType.LIQUID;
+                this.shipType = ShipType.NORMAL;
+                this.nominalWeight = random.nextInt(2) + 6;
+                this.workingWeight = this.nominalWeight;
                 break;
             case 2:
-                cargoType = CargoType.CONTAINER;
+                this.shipType = ShipType.BIG;
+                this.nominalWeight = random.nextInt(2) + 10;
+                this.workingWeight = this.nominalWeight;
                 break;
         }
-
-        return cargoType;
+        switch(random.nextInt(3)) {
+            case 0:
+                this.cargoType = CargoType.BULK;
+                break;
+            case 1:
+                this.cargoType = CargoType.LIQUID;
+                break;
+            case 2:
+                this.cargoType = CargoType.CONTAINER;
+                break;
+        }
     }
 
     public String getName() {
@@ -61,11 +72,7 @@ public class Ship {
 
     @Override
     public String toString() {
-        return "Ship{" +
-                "name='" + name + '\'' +
-                ", cargoType=" + cargoType +
-                ", weight=" + nominalWeight +
-                '}';
+        return "Корабль " + "\"" + name + "\"" + " Тип: " +shipType + " Вид груза: " + cargoType + " Вес равен: " + nominalWeight + " ";
     }
 
 }

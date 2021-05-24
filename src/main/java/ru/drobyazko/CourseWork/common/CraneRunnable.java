@@ -115,7 +115,7 @@ public class CraneRunnable implements Runnable {
                 }
 
             }
-            int newWeight = currentShipSlot.getShip().getWorkingWeight() - crane.getCraneEfficiency();
+            int newWeight = currentShipSlot.getShip().getWorkingWeight() - crane.getCraneEfficiency() * crane.getCraneUnloadSpeed();
             currentShipSlot.getShip().setWorkingWeight(newWeight);
         }
     }
@@ -134,7 +134,7 @@ public class CraneRunnable implements Runnable {
                     currentShipSlot.setPenalty( ( ( currentTick - currentShipSlot.getArrivalTime() ) / 60) * 100);
                 }
             }
-            int newWeight = currentShipSlot.getShip().getWorkingWeight() - crane.getCraneEfficiency();
+            int newWeight = currentShipSlot.getShip().getWorkingWeight() - crane.getCraneEfficiency()*crane.getCraneUnloadSpeed();
             currentShipSlot.getShip().setWorkingWeight(newWeight);
         }
     }

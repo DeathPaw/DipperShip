@@ -11,6 +11,7 @@ import ru.drobyazko.CourseWork.services.TimeTableSolverService;
 @RestController
 public class SolverController {
 
+
     private final TimeTableSolverService timeTableSolverService;
     private static int counter = 0;
 
@@ -21,9 +22,9 @@ public class SolverController {
 
     @GetMapping("/solveTimeTable")
     public ResponseEntity<TimeTable> solveTimeTable() {
-        RestTemplate restTemplate = new RestTemplate();
+        RestTemplate restTemplate = new RestTemplate();//
 
-        String resourceUrl = "http://localhost:8080/newTimeTable";
+        String resourceUrl = "http://localhost:8080/newTimeTable";//
         ResponseEntity<TimeTable> response = restTemplate.getForEntity(resourceUrl, TimeTable.class);
 
         TimeTable timeTable = response.getBody();
